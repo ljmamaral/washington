@@ -1,25 +1,18 @@
+/* The default styling for all unspecified selectors */
 * {
-    text-align: center;
     font-family: 'Space Mono', monospace;
     color: black;
 }
 
-h1, h2, h3 {
-    color:black;
-}
 
-p {
-    color: black;
-}
-
-/* The nav bar on the left */
-nav *{
-    text-align: left;
-}
-
+/* ------ Media ------ */
 a {
     color: red;
 }
 a:hover {
     color:blue;
+}
+
+figure {
+    text-align: center;
 }
